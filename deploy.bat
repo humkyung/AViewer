@@ -1,0 +1,1 @@
+%CURL% -uhumkyung:Gmarud100$ -X PUT "http://home.atools.co.kr:8081/artifactory/AViewer/AViewer-%1.msi" -T "./Setup/AViewer-%1.msi"

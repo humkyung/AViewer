@@ -1,0 +1,1 @@
+.venv\scripts\activate.bat & pip install -r .\requirements.txt & .venv\scripts\pyinstaller .\App.spec --onedir -p ".venv\Lib\site-packages\PyQt5" -w --log-level=DEBUG -y & .venv\scripts\deactivate.bat

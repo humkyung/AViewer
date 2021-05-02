@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="Help.svg"
+   id="svg9"
+   xml:space="preserve"
+   viewBox="0 0 32 32"
+   height="32"
+   width="32"
+   y="0px"
+   x="0px"
+   version="1.1"><metadata
+   id="metadata15"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs13" /><sodipodi:namedview
+   inkscape:current-layer="svg9"
+   inkscape:window-maximized="1"
+   inkscape:window-y="-8"
+   inkscape:window-x="1912"
+   inkscape:cy="15.563697"
+   inkscape:cx="7.4426292"
+   inkscape:zoom="17.708333"
+   showgrid="false"
+   id="namedview11"
+   inkscape:window-height="1017"
+   inkscape:window-width="1920"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0"
+   guidetolerance="10"
+   gridtolerance="10"
+   objecttolerance="10"
+   borderopacity="1"
+   bordercolor="#666666"
+   pagecolor="#ffffff" />
+<g
+   transform="matrix(1.6137166,0,0,1.6137166,-3.3645991,-3.3645991)"
+   style="opacity:0.75;fill:#5274b1;fill-opacity:1"
+   id="Icons">
+	<g
+   style="fill:#5274b1;fill-opacity:1"
+   id="help">
+		<path
+   d="m 12.001,2.085 c -5.478,0 -9.916,4.438 -9.916,9.916 0,5.476 4.438,9.914 9.916,9.914 5.476,0 9.914,-4.438 9.914,-9.914 0,-5.478 -4.438,-9.916 -9.914,-9.916 z m 0.001,18 c -4.465,0 -8.084,-3.619 -8.084,-8.083 0,-4.465 3.619,-8.084 8.084,-8.084 4.464,0 8.083,3.619 8.083,8.084 0,4.464 -3.619,8.083 -8.083,8.083 z"
+   style="clip-rule:evenodd;fill:#5274b1;fill-opacity:1;fill-rule:evenodd"
+   id="circle" />
+		<g
+   style="fill:#5274b1;fill-opacity:1"
+   id="question_mark">
+			<path
+   d="m 11.766,6.688 c -2.5,0 -3.219,2.188 -3.219,2.188 L 9.958,9.73 c 0,0 0.298,-0.791 0.901,-1.229 0.516,-0.375 1.625,-0.625 2.219,0.125 C 13.779,9.511 12.908,10.213 12,11.345 11.047,12.531 11,15 11,15 h 1.969 c 0,0 0.135,-2.318 1.041,-3.381 0.603,-0.707 1.443,-1.338 1.443,-2.494 0,-1.156 -1.187,-2.437 -3.687,-2.437 z"
+   style="clip-rule:evenodd;fill:#5274b1;fill-opacity:1;fill-rule:evenodd"
+   id="top" />
+			<rect
+   height="2"
+   width="2"
+   style="clip-rule:evenodd;fill:#5274b1;fill-opacity:1;fill-rule:evenodd"
+   y="16"
+   x="11"
+   id="bottom" />
+		</g>
+	</g>
+</g>
+<g
+   transform="translate(-2.085,-2.085)"
+   style="display:none"
+   id="Guides">
+</g>
+</svg>

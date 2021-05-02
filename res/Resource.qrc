@@ -1,0 +1,20 @@
+<RCC>
+  <qresource prefix="images">
+    <file>network.svg</file>
+    <file>Orthographic.svg</file>
+    <file>Perspective.svg</file>
+    <file>back_view.svg</file>
+    <file>bottom_view.svg</file>
+    <file>front_view.svg</file>
+    <file>isometric_view.svg</file>
+    <file>isometric-view_32px.svg</file>
+    <file>left_side_view.svg</file>
+    <file>right_side_view.svg</file>
+    <file>top_view.svg</file>
+    <file>Exit.svg</file>
+    <file>AViewer.ico</file>
+    <file>Help.svg</file>
+    <file>Open.svg</file>
+    <file>Save.svg</file>
+  </qresource>
+</RCC>

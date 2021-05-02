@@ -1,0 +1,240 @@
+/* Customize any plain widget that is a child of a QMainWindow. */
+QMainWindow > .QWidget {
+    background-color: gainsboro;
+    background-position: top right;
+    background-repeat: no-repeat
+}
+
+/* Provide a padding for the layout inside the frame. The frame
+   exists only to provide a padding for the top-right image, so we
+   explicitly disable the border. */
+#mainFrame {
+    padding-right: 30px;
+    border-style: none;
+    border-image: none; /* since we set a border-image below */
+}
+
+/* mainFrame won't have this border-image since we have
+   explicitly set it to 'none' using a more specific selector. */
+QFrame, QLineEdit{
+    border-width: 3;
+}
+
+QLabel {
+    border: none;
+    border-image: none;
+    padding: 0;
+    background: none;
+}
+
+/* Make text in message boxes selectable. */
+QMessageBox {
+    /* LinksAccessibleByMouse | TextSelectableByMouse */
+    messagebox-text-interaction-flags: 5;
+}
+   
+/* Set the selection colors for all widgets. */
+QWidget {
+    selection-color: grey;
+    selection-background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #ffa02f, stop: 1 #d7801a);
+    color: black;
+}
+
+QWidget:focus
+{
+    border: 2px solid QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #ffa02f, stop: 1 #d7801a);
+}
+
+/* Make the entire row selected in item views. */
+QAbstractItemView {
+    show-decoration-selected: 1;
+}
+
+/* Nice WindowsXP-style password character for password line edits. */
+QLineEdit[echoMode="2"] {
+    lineedit-password-character: 9679;
+}
+
+/* Customize tooltips. */
+QToolTip {
+    background-color: rgb(200,200,255);
+    border-color: darkslategray;
+    border-width: 1px;
+    border-style: solid;
+    padding: 3px;
+    font: bold;
+    border-radius: 3px;
+    opacity: 200;
+}
+
+/* Customize radio buttons. */
+
+QRadioButton {
+    spacing: 5px;
+}
+
+QRadioButton::indicator {
+    width: 13px;
+    height: 13px;
+}
+
+/* Customize arrows. */
+
+*::down-arrow, *::menu-indicator {
+    width: 7px;
+    height: 7px;
+}
+
+*::up-arrow {
+    width: 7px;
+    height: 7px;
+}
+
+/* Customize push buttons and comboboxes. Our read-only combobox
+   is very similar to a push button, so they share the same border image. */
+
+QPushButton {
+    min-width: 4em;
+}
+
+QPushButton{
+    border-width: 5;
+}
+
+QPushButton:hover, QMenuBar::item:hover {
+    border-width: 5;
+}
+
+QPushButton:pressed, QMenuBar::item:on {
+    border-width: 5;
+}
+
+QMenuBar::item::selected {
+    background-color: grey;
+    color: white;
+}
+
+QMenu::item::selected {
+    background-color: grey;
+    color: white;
+}
+
+/* Customize check boxes. */
+QCheckBox {
+    spacing: 5px;
+}
+
+QCheckBox::indicator {
+    width: 13px;
+    height: 13px;
+}
+
+/* Customize the size grip. */
+QSizeGrip {
+    width: 16px;
+    height: 16px;
+}
+
+/* Customize the menu bar. */
+QMenuBar {
+    border-image: none;
+    border-style: none;
+    border-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: darkslategray;
+    padding: 2px;
+}
+
+QToolButton:hover
+{
+        background-color: rgb(175,175,175);
+}
+
+QProgressBar{
+    border: 2px solid grey;
+    border-radius: 5px;
+    text-align: center;
+}
+
+QProgressBar:chunk{
+    background-color: grey;
+}
+
+QGraphicsView
+{
+     border: transparent;
+     background: transparent;
+}
+
+/*ribbon*/
+QRibbon {
+    border: 1px;
+    margin: 0px;
+    background-color: rgb(240, 240, 240);
+}
+
+/*TabMenuBar*/
+TabBar {
+    border: 0px;
+}
+
+TabBar:pane {
+    border: 0px;
+    background-color: #ffffff;
+}
+
+
+TabBar::tab {
+    min-width: 50px;
+    min-height: 30px;
+}
+
+TabBar::tab:selected {
+    border: 0px;
+    background-color: #ffffff;
+}
+
+TabBar::tab:selected:hover {
+    border: 0px;
+    background-color: #ffffff;
+}
+
+TabBar::tab:!selected {
+    border: 0px;
+    margin: 0px;
+    background-color: rgb(240, 240, 240);
+}
+
+TabBar::tab:hover {
+    border: 0px;
+    background-color: #D0D0D1;
+}
+
+QToolButton { /* all types of tool button */
+    border: 0px solid #8f8f91;
+    border-radius: 6px;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #f6f7fa, stop: 1 #dadbde);
+}
+
+QToolButton[popupMode="1"] { /* only for MenuButtonPopup */
+    padding-right: 20px; /* make way for the popup button */
+}
+
+QToolButton:pressed {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #dadbde, stop: 1 #f6f7fa);
+}
+
+/* the subcontrols below are used only in the MenuButtonPopup mode */
+QToolButton::menu-button {
+    border: 2px solid gray;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    /* 16px width + 4px for border = 20px allocated above */
+    width: 16px;
+}
+
+QToolButton::menu-arrow:open {
+    top: 1px; left: 1px; /* shift it a bit */
+}
